@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import LeftSide from "../components/leftSide";
-import RightSide from "../components/rightSide";
+import RightSide from "../components/patient";
 
 export default function CostsLayout({
   sharedText,

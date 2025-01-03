@@ -1,5 +1,4 @@
 import type { Client } from "@osdk/client";
-import type { PublicOauthClient } from "@osdk/oauth";
 import { createClient } from "@osdk/client";
 import { $ontologyRid } from "@hospital-osdk/sdk";
 import { createPublicOauthClient } from "@osdk/oauth";

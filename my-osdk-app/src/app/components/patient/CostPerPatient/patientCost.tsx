@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Osdk } from "@osdk/client";
 import client from "@/lib/client";
-import { dosageMapping } from "../DosageMapping";
+import { dosageMapping } from "../../../../utils/DosageMapping";
 import { PatientMedication } from "@hospital-osdk/sdk";
 
 const patientsMeds: Osdk.Instance<PatientMedication>[] = [];
